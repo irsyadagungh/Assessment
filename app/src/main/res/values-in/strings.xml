@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Assessment</string>
+    <string name="welcome">Selamat Datang</string>
+    <string name="welcome_app">Selamat datang di platform artikel! Jelajahi artikel-artikel menarik dari penulis terpercaya dan bagikan karya kreatif Anda. Mari tingkatkan pengetahuan Anda sekarang!</string>
+    <string name="signIn">Masuk</string>
+    <string name="signUp">Daftar</string>
+    <string name="home">Rumah</string>
+    <string name="title">Judul</string>
+    <string name="content">Konten</string>
+    <string name="submit">Kirim</string>
+    <string name="sport">Olahraga</string>
+    <string name="entertaiment">Hiburan</string>
+    <string name="music">Musik</string>
+    <string name="category">Kategori</string>
+    <string name="category1">Pilih kategori dengan menekan panah</string>
+    <string name="cate">Panah kategori</string>
+    <string name="input_invalid">Tidak boleh kosong</string>
+    <string name="next">Lanjut</string>
+    <string name="share">Bagikan</string>
+    <string name="back">Kembali</string>
+    <string name="share_content">Judul: \n%1$s\n\nKonten: \n%2$s\n\Kategori: \n%3$s</string>
+    <string name="empty">Belum ada data</string>
+    <string name="about">Tentang</string>
+    <string name="copyright">Copyright © 2024 Irsyad Agung Hidayatullah. Seluruh hak cipta dilindungi.</string>
+    <string name="reset">Hapus</string>
+    <string name="delete">Hapus</string>
+</resources>
