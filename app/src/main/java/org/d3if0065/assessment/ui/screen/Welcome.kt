@@ -61,7 +61,7 @@ fun Welcome(navController: NavHostController) {
                 fontWeight = FontWeight.Medium
             )
 
-            Spacer(modifier = Modifier.height(150.dp))
+            Spacer(modifier = Modifier.height(100.dp))
 
             Button(
                 modifier = Modifier.fillMaxWidth(),

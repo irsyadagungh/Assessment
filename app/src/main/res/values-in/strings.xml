@@ -15,6 +15,7 @@
     <string name="category">Kategori</string>
     <string name="category1">Pilih kategori dengan menekan panah</string>
     <string name="cate">Panah kategori</string>
+    <string name="add">Tambah Artikel</string>
     <string name="input_invalid">Tidak boleh kosong</string>
     <string name="next">Lanjut</string>
     <string name="share">Bagikan</string>
@@ -25,4 +26,10 @@
     <string name="copyright">Copyright © 2024 Irsyad Agung Hidayatullah. Seluruh hak cipta dilindungi.</string>
     <string name="reset">Hapus</string>
     <string name="delete">Hapus</string>
+    <string name="article">Artikel</string>
+    <string name="more">Lainnya</string>
+    <string name="edit">Ubah</string>
+    <string name="cancel">Batal</string>
+    <string name="delete_message">Apakah kamu yakin ingin menghapus artikel ini?</string>
+    <string name="invalid">Judul, Konten dan Kategori tidak boleh kosong</string>
 </resources>

@@ -14,6 +14,7 @@
     <string name="about">About</string>
     <string name="title">Title</string>
     <string name="content">Content</string>
+    <string name="article">Article</string>
 
     <string name="category">Category</string>
     <string name="category1">Choose category by clicking the arrow</string>
@@ -24,12 +25,18 @@
 
     <string name="submit">Submit</string>
     <string name="reset">Reset</string>
+    <string name="add">Add Article</string>
     <string name="input_invalid">Do not empty</string>
+    <string name="invalid">Title, Content and Category do not empty</string>
 
     <string name="next">Continue</string>
     <string name="share">Share</string>
     <string name="delete">Delete</string>
+    <string name="more">More</string>
+    <string name="edit">Edit</string>
     <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_message">Are you sure want to delete this article?</string>
 
     <string name="share_content">Title: \n%1$s\n\nContent: \n%2$s\n\nCategory: \n%3$s</string>
     <string name="empty">Data is empty</string>
