@@ -60,7 +60,7 @@ fun DetailScreen(navController: NavHostController, id: Long? = null) {
     val context = LocalContext.current
     val db = ArticleDb.getInstance(context)
     val factory = ViewModelFactory(db.dao)
-    val viewModel: DetailViewModel = viewModel(factory = factory)
+    val viewModel: DetailViewModel = viewModel()
 
     var title by remember { mutableStateOf("") }
     var content by remember { mutableStateOf("") }

@@ -10,5 +10,7 @@ data class Article (
     val id: Long = 0L,
     val title: String,
     val content: String,
-    val category: String
+    val category: String,
+    val idUser: String,
+    val image: String
 )

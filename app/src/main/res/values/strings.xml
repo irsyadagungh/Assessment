@@ -28,6 +28,7 @@
     <string name="add">Add Article</string>
     <string name="input_invalid">Do not empty</string>
     <string name="invalid">Title, Content and Category do not empty</string>
+    <string name="profile">Profile</string>
 
     <string name="next">Continue</string>
     <string name="share">Share</string>
@@ -42,4 +43,5 @@
     <string name="empty">Data is empty</string>
 
     <string name="copyright">Copyright © 2024 Irsyad Agung Hidayatullah. All rights reserved.</string>
+    <string name="logout">Logout</string>
 </resources>

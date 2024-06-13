@@ -17,6 +17,7 @@
     <string name="cate">Panah kategori</string>
     <string name="add">Tambah Artikel</string>
     <string name="input_invalid">Tidak boleh kosong</string>
+    <string name="profile">Profil</string>
     <string name="next">Lanjut</string>
     <string name="share">Bagikan</string>
     <string name="back">Kembali</string>
@@ -32,4 +33,5 @@
     <string name="cancel">Batal</string>
     <string name="delete_message">Apakah kamu yakin ingin menghapus artikel ini?</string>
     <string name="invalid">Judul, Konten dan Kategori tidak boleh kosong</string>
+    <string name="logout">Logout</string>
 </resources>
