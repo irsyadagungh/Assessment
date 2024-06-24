@@ -207,14 +207,11 @@ fun HomeContent(modifier: Modifier, navController: NavHostController, showList: 
                         title = item.title,
                         content = item.content,
                         category = item.category,
-                        index = data.indexOf(item),
                         onClick = {
                             navController.navigate(ScreenManager.EditArticle.withId(item.id))
                         },
-                        onClickDelete = {
-                            viewDetailModel.delete(item.id)
-                        },
-
+                        viewModel = viewDetailModel,
+                        id = item.id,
                     )
                 }
             }
@@ -309,7 +306,7 @@ fun ListItem(
                         )
                         DisplayAlertDialog(
                             openDialog =  showDialog,
-                            onDismissRequest = { showDialog != showDialog }
+                            onDismissRequest = { showDialog = !showDialog }
                         ) {
                             showDialog = false
                             viewModel.delete(id)
@@ -321,9 +318,17 @@ fun ListItem(
 }
 
 @Composable
-fun GridItem(title: String, content: String, category: String, index: Int, onClick: () -> Unit, onClickDelete: () -> Unit) {
+fun GridItem(title: String,
+             content: String,
+             category: String,
+             onClick: () -> Unit,
+             viewModel: DetailViewModel,
+             id: Long,
+             ) {
 
     val context = LocalContext.current
+    var showDialog by remember { mutableStateOf(false) }
+
 
     Card(
         modifier = Modifier
@@ -388,7 +393,7 @@ fun GridItem(title: String, content: String, category: String, index: Int, onCli
                 }
                 IconButton(
                     onClick = {
-                        onClickDelete()
+                        showDialog = true
                     }
                 ) {
                     Icon(
@@ -396,6 +401,13 @@ fun GridItem(title: String, content: String, category: String, index: Int, onCli
                         contentDescription = stringResource(R.string.delete),
                         tint = MaterialTheme.colorScheme.error
                     )
+                    DisplayAlertDialog(
+                        openDialog =  showDialog,
+                        onDismissRequest = { showDialog = !showDialog }
+                    ) {
+                        showDialog = false
+                        viewModel.delete(id)
+                    }
                 }
             }
         }
